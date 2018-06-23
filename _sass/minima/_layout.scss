@@ -203,7 +203,8 @@
 }
 
 .post-link {
-  display: block;
+  display: inline;
+  padding: 20px;
   @include relative-font-size(1.25);
 }
 
