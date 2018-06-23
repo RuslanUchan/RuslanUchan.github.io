@@ -1,0 +1,96 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Ruslan Uchan
+email: ruslanuchan97@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Welcome to my site where I record my journey to become a data scientist.
+  Here you'll find my writings, notes, and some of the things I've played
+  with around data science.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: ruslanuchan97
+github_username:  RuslanUchan
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+#
+#
+#
+# This is my default configuration for jekyll
+# For more information about default configuration, check it out at
+# https://jekyllrb.com/docs/configuration/#front-matter-defaults
+
+...
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: "post"
+    values:
+      layout: "post"
+      author: "Ruslan Uchan"
+      category: datascience
+... 
+
+# For theme configuration (that is minima), you can check it out at
+# https://github.com/jekyll/minima/blob/master/README.md
+# There are things you can do. I'll comment that out
+# Make sure to check the newest docs before filling this in the future
+
+# --- Customize Navigation Links ---
+header_pages:
+  - about.md
+  - portofolio.md
+
+# --- Enabling Comments (Via Disqus) . See docs for more ---
+#disqus:
+#  shortname: my_disqus_shortname
+
+# --- Social Networks ---
+#facebook_username:
+#instagram_username:
+#linkedin_username:
+#youtube_username:
+#googleplus_username:
+#rss: rss
+
+#mastodon:
+#  - username: 
+#    instance: example.com
+#  - username:
+#    instance: example.com
+
+# --- Google Analytics ---
+#google_analytics: UA-NNNNNNNN-N
+
+# --- Show Excerpts on Homepage ---
+#show_excerpts: true
