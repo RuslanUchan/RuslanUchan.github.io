@@ -218,9 +218,11 @@
 }
 
 .post-title {
-  @include relative-font-size(2.625);
+  @include relative-font-size(2.25);
   letter-spacing: -1px;
   line-height: 1;
+  text-decoration: underline;
+  text-decoration-color: darkturquoise;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
@@ -253,4 +255,17 @@
       @include relative-font-size(1.125);
     }
   }
+}
+
+/*
+// scss for index.html
+.myimg {
+  float: left;
+  margin: 0 auto;
+}
+*/
+.mini-wrapper{
+  margin: 0 auto;
+  padding-top: 10%;
+  text-align: center;
 }

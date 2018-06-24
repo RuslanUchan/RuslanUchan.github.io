@@ -1,8 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: page
+title: About
+permalink: /about/
 ---
 
 ### Hello! Nice to meet you!
@@ -13,6 +12,4 @@ I've been learning about data science since January 2018 after some months of go
 
 This is my personal site where I do my hobbies of writing and also documenting my journey as a fledgling data scientist.
 
-### Contact me
-
-[ruslanuchan97@gmail.com](mailto:ruslanuchan97@gmail.com)
+You can contact me at [ruslanuchan97@gmail.com](mailto:ruslanuchan97@gmail.com)

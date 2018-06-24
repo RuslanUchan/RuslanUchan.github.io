@@ -69,8 +69,9 @@ defaults:
 
 # --- Customize Navigation Links ---
 header_pages:
-  - about.md
+  - blog.md
   - portofolio.md
+  - about.md
 
 # --- Enabling Comments (Via Disqus) . See docs for more ---
 #disqus:
