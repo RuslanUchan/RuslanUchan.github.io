@@ -16,14 +16,12 @@
 title: Ruslan Uchan
 email: ruslanuchan97@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my site where I record my journey to become a data scientist.
-  Here you'll find my writings, notes, and some of the things I've played
-  with around data science.
+  This site is made using Jekyll and Minima ❤️
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ruslanuchan97
+# twitter_username: ruslanuchan97
 github_username:  RuslanUchan
-#instagram_username: uchanchanz
+instagram_username: uchanchanz
 
 # Build settings
 markdown: kramdown
@@ -72,6 +70,7 @@ header_pages:
   - blog.md
   - portofolio.md
   - about.md
+  # - resume.md
 
 # --- Enabling Comments (Via Disqus) . See docs for more ---
 #disqus:

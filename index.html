@@ -6,7 +6,35 @@ layout: default
   <!--<img class="myimg" src="{{ site.baseurl }}/assets/00 me3.png" alt="My Pic" style="width: 225px;"/>-->
   <div class="mini-wrapper">
     <h1>Hi, There!</h1>
-    <h2>I'm Ahmad Ruslan Almujaddidi and I'm an aspiring Data Scientist<br>Welcome to my blog :)</h2>  
+    <h2>I'm Ruslan. Nice to meet you! :)<br><span id="typed"></span></h2>
   </div>
-  
+
+  <script src="../assets/js/typed.min.js"></script>
+  <script>
+    var typed = new Typed("#typed", {
+      // Waits 1000ms after typing "First"
+      strings: [
+        "I'm an undergraduate of informatics engineering.^2000",
+        "I'm aspiring to be a data scientist.^2000", 
+        "I'm interested in software engineering^1500",
+        "I'm interested in machine learning^1500",
+        "I'm interested in user experience^1500"
+      ],
+      typeSpeed: 40,
+      startDelay: 200,
+      backSpeed: 30,
+      backDelay: 600,
+      /*
+      fadeOut: true,
+      fadeOutClass: 'typed-fade-out',
+      fadeOutDelay: 500,
+      */
+      loop: true,
+      loopCount: Infinity,
+      showCursor: true,
+      cursorChar: '|',
+      autoInsertCss: true
+    });
+  </script>
+
 </div>

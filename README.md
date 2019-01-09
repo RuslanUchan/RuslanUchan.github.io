@@ -7,6 +7,9 @@ Some articles I used
 4. [Help on Github-pages](https://help.github.com/categories/customizing-github-pages/)
 5. [Markdown](https://guides.github.com/features/mastering-markdown/)
 
+*Includes*
+- [Typed.js](https://github.com/mattboldt/typed.js)
+
 *Notes for the future*
 - Update the portofolio page
 - Make notes on jekyll commands in blog page, in case I want to go back to it in the future
